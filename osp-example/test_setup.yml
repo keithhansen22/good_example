@@ -12,5 +12,4 @@
     register: result
   - debug: var=result
     tags:
-     - test_inventory
- 
+     - osp_test_inventory

@@ -2,7 +2,7 @@
   roles:
     - osp-facts
 
-- hosts: dev
+- hosts: qa
   gather_facts: false
   become: yes
   tasks:

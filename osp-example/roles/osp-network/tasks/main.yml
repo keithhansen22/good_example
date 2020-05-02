@@ -39,7 +39,6 @@
            nexthop: 192.168.0.0
          - destination: 192.168.0.0/24
            nexthop: 192.168.0.0
-
   - os_router:
       cloud: ospcloud
       state: present

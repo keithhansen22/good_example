@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
-  remote_user: root
+- hosts: jumpbox
+  remote_user: cloud-user
   roles:
     - osp-facts
